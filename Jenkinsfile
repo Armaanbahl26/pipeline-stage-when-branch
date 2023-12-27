@@ -13,7 +13,9 @@ pipeline{
             when{
                 branch "dev"
             }
-            echo "Building dev"
+            steps{
+                echo "Building dev"
+            }
         }
     }
 }
